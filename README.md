@@ -5,7 +5,7 @@ Created on Sun Jul  5 18:02:46 2015
 
 @author: liamofarrell
 """
-
+``` 
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -55,3 +55,4 @@ def train_test_rmse(X, y):
 feature_cols = ['cool', 'useful', 'funny']
 X = yelp[feature_cols]
 train_test_rmse(X, y)
+```
